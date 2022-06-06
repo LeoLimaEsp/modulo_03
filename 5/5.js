@@ -8,7 +8,9 @@ class Alumnos {
         this.NombreCompleto();
         this.Promedio();
         this.CheckAprocación();
+        this.promedioFinal = 0;
     }
+    
 
     ObtenerInicialesDeAlumno(){
         let inicial = this.nombre;
@@ -28,12 +30,12 @@ class Alumnos {
         for(let i=0; j < this.calificacionesFinales.length; j++){
             suma += this.calificacionesFinales[j];
         }
-        let promedioFinal = suma / this.calificacionesFinales.length;
-        console.log(`El promedio final es: ${promedioFinal}`);
+        this.promedioFinal = suma / this.calificacionesFinales.length;
+        console.log(`El promedio final es: ${this.promedioFinal}`);
     }
 
     CheckAprocación(){
-        if( this.promedioFinal <=5){
+        if(this.promedioFinal >=6){
             console.log("todas las calificaciones son aprobatorias.")
         }
         else{
@@ -42,10 +44,10 @@ class Alumnos {
     }
 }
 
-let alumno1 = new Alumnos("Leonel","Lima", true, 5,5,5,5,5)
+let alumno1 = new Alumnos("Leonel","Lima", true, 6,6,6,6,6)
 
 
-let alumno2 = new Alumnos("Alan","Najera", false, 7,9,7,7,7)
+let alumno2 = new Alumnos("Alan","Najera", false, 9,9,9,9,5)
 
 
 let alumno3 = new Alumnos("Miguel","Lozano", true,6,4,6,4,6 )
