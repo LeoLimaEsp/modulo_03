@@ -43,5 +43,5 @@ let pablo = new MaestroMusica
 
 console.log(pablo);
 console.log(pablo.calificaciones);
-pablo.asignarCalificaciones(10,2,4,3,3,3,3,3,3);
+pablo.asignarCalificaciones(10,2,4,3,3);
 console.log(pablo.calcularPromedio());
