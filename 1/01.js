@@ -8,5 +8,5 @@ function esUnPalindromo(texto)
 }
 
 console.log(esUnPalindromo("anita lava la tina"));
-
+console.log(esUnPalindromo("oso"));
 
