@@ -6,23 +6,26 @@ class Bebida{
     }
     
     //definición de getter y setter
-    // getEnvase(){//get -> obtener, consultar
-    //     return this.envase
-    // }
+    get Envase(){//get -> obtener, consultar
+        return this.envase
+    }
     
-    // getSabor(){
-    //     return this.sabor
-    // }
+    get Sabor(){
+        return this.sabor
+    }
     
-    set envase(nuevoEnvase){//set -> asignar, definir, colocar
+    set Envase(nuevoEnvase){//set -> asignar, definir, colocar
         this.nuevoEnvase = nuevoEnvase
     }
     
-    set setSabor(nuevoSabor){
+    set Sabor(nuevoSabor){
         this.sabor = nuevoSabor
     }
 }
+
 let nuevaBebida = new Bebida();
-nuevaBebida.envase = "cartón";
-nuevaBebida.setSabor = "uva";
-console.log(nuevaBebida);
+
+console.log(nuevaBebida.sabor); //uso del getter
+
+nuevaBebida.sabor = "fresa"; //uso del setter
+console.log(nuevaBebida.sabor); //aqui el setter ya hizo el cambio.
