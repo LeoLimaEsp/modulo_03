@@ -27,5 +27,5 @@ let nuevaBebida = new Bebida();
 
 console.log(nuevaBebida.Sabor); //uso del getter
 
-nuevaBebida.Sabor = "fresa"; //uso del setter
+nuevaBebida.Sabor = "mango"; //uso del setter
 console.log(nuevaBebida.Sabor); //aqui el setter ya hizo el cambio.
