@@ -36,8 +36,18 @@ stack.push("Pueblo 1")
 stack.push("Pueblo 2")
 stack.push("Destino")
 
-function camino_recorrido(){
-    stack.print()
-}
+function camino_recorrido(stack)
+{
+    let long = stack.items.length
 
-console.log(camino_recorrido());
+    let arreglo = new Stack();
+
+    console.log(stack.items);
+
+    for (let i = 0; i < long; i++)
+    {
+        arreglo.push(stack.pop());
+    }
+
+    console.log(arreglo.items);
+}
