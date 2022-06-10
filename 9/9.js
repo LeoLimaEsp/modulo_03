@@ -44,4 +44,5 @@ function ret_elementos(stack,n) {
 
     return res
 }
-console.log(ret_elementos(stack,4)) ;
+
+console.log();
