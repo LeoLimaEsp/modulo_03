@@ -38,21 +38,32 @@ stack.push(2)
 stack.push(5)
 stack.push(5)
 
-function reemplazar(stack, nuevo_nuevo, parametro){
-    
-        let auxiliar = new Stack()
-        let item
-        
-        for(let i = 0; i<parametro.forEach();i++) {
-            item = stack.pop()
-            auxiliar.push(item)
-            // auxiliar.push(stack.pop())
+function reemplazar(stack, nuevo_n, viejo_n)
+{
+    stack.print();
+
+    let ultimoValor = 0;
+
+    do
+    {
+        ultimoValor = stack.pop();
+
+        if (ultimoValor === viejo_n)
+        {
+            console.log(`Es igual a ${ultimoValor}`);
+            stack.push(nuevo_n);
         }
-        auxiliar.print()
+        else
+        {
+            console.log(`No es igual a ${ultimoValor}`)
+        }
     }
 
-    console.log(reemplazar(stack,1,1));
+    while (ultimoValor != viejo_n)
 
+    stack.print();
+}
+    
 
 
 
