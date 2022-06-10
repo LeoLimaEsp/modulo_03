@@ -25,7 +25,7 @@ class Bebida{
 
 let nuevaBebida = new Bebida();
 
-console.log(nuevaBebida.sabor); //uso del getter
+console.log(nuevaBebida.Sabor); //uso del getter
 
-nuevaBebida.sabor = "fresa"; //uso del setter
-console.log(nuevaBebida.sabor); //aqui el setter ya hizo el cambio.
+nuevaBebida.Sabor = "fresa"; //uso del setter
+console.log(nuevaBebida.Sabor); //aqui el setter ya hizo el cambio.
