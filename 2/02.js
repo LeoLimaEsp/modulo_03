@@ -6,4 +6,4 @@ function longestCountry(array){
     });
     return array[0];
 }
-console.log(longestCountry(paises));
+
