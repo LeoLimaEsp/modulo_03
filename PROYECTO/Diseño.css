@@ -1,0 +1,28 @@
+#body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.wallpapersafari.com/desktop/1366/768/81/95/Z7D2q6.jpg");
+}
+.img{
+    display: block;
+    margin-left: 570px;
+    border-radius: 20%;
+    margin-top: 20px;
+    width: 200px;
+}
+
+#search_input{
+    margin-left: 590px;
+    background-color: #aa9e92;
+        border: 2px solid #bae011;
+        font-size: 1.2rem;
+        font-weight:lighter;
+        line-height: 1;
+        border-radius: 9rem;
+        width: 160px;
+        ::placeholder { color: blue; }
+}
+::placeholder { color: rgb(36, 36, 36); 
+    font-size: .9rem;}
+
+#container{
+    color:#bae011
+}
