@@ -44,3 +44,5 @@ function ret_elementos(stack,n) {
 
     return res
 }
+ 
+console.log();
