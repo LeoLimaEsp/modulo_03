@@ -1,38 +1,75 @@
 #body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.wallpapersafari.com/desktop/1366/768/81/95/Z7D2q6.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://rosediaz2401.github.io/swapi/img/space.jpg");
 }
 
 img{
-    display: block; 
-    border-radius: 20%;
-    margin-top: 20px;
-    width: 200px;
+    margin-top: 0px;
+    width: 288px;
+    visibility:visible;
+    height: 270px;
 }
-
 #search_input{
-    margin-left: 590px;
-    background-color: #aa9e92;
-    border: 2px solid #bae011;
+    margin-left: 470px;
+    background-image: linear-gradient(rgba(221, 205, 191, 0.87), rgba(29, 13, 13, 0.5)), url("https://us.123rf.com/450wm/regioeligo/regioeligo1701/regioeligo170100053/69597010-vector-abstract-background-with-open-space-star-warp-or-hyperspace-travel-big-bang-illustration-.jpg?ver=6");
+    border: 2px solid #37380e;
     font-size: 1.2rem;
     font-weight:lighter;
     line-height: 1;
-    border-radius: 9rem;
-    width: 160px;
-       
+    width: 380px;
+    height: 28px;
+    border-radius: 7px;      
 }
-::placeholder { color: rgb(36, 36, 36); 
-    font-size: .9rem;}
+#search_input:hover{
+    opacity: .5;
+}
+::placeholder { color: rgb(230, 233, 35); 
+    font-size: .9rem;
+}
 
 #container{
-    color:#bae011;
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
     text-align: center;
     justify-content: center;
+    color: rgb(233, 231, 231);
 }
 
 .card{
-    margin: 24px;
-    border: 3px solid goldenrod;
+    margin: 55px;
+    border: 4px solid rgb(248, 244, 24);
+    background-image: linear-gradient(rgba(117, 74, 74, 0.5), rgba(209, 75, 22, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEq28HWNV7m_c_uPaOkDwhvr9aXNHFKRBApsCxswCBz2ttwPpnn5VE8nE9mt_CG83nNd0&usqp=CAU");
+    background-size: 350px;
+    height: 430px;
+    font: oblique bold 85% cursive;
+}
+.card:hover{
+    opacity: .7;
+}
+
+.imagen{
+    margin-left: 525px;
+    width: 280px;
+    height: 180px;
+
+}
+.imagen:hover{
+    opacity: 1;
+}
+.card-title{
+    color: rgb(116, 41, 7);
+    padding: .5px;
+    word-spacing: 4px;
+    height: 2px;
+}
+.card-title-name{
+    color: rgb(87, 18, 18);
+    font: oblique bold 98% cursive;
+    font-size: 16px;
+}
+#Textend{
+    font: oblique bold 90% cursive;
+    color: aliceblue;
+    text-align: center;
+    word-spacing: 8px;
 }

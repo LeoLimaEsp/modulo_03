@@ -33,7 +33,7 @@ function loadCard(name,gender,birth_year,mass){
   <div class="card" style="width: 18rem;">
       <img src="./img/${name}.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-          <h5 class="card-title">${name}</h5>
+          <h5 class="card-title-name">${name}</h5>
           <h5 class="card-title"> Gender: ${gender}</h5>
           <h5 class="card-title"> Birth-Year: ${birth_year}</h5>
           <h5 class="card-title"> Mass: ${mass}</h5>
